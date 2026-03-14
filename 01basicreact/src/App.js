@@ -1,6 +1,12 @@
+import Chai from "./tea";
+
+
 function App() {
   return (
-    <h1>Hello |Alekhya</h1>
+  <>
+  <Chai/>
+  <h1>Hello</h1>
+  </>  
   );
 }
 
