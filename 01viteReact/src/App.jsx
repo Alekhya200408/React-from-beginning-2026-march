@@ -3,10 +3,16 @@ import Tea from "./new"
 
 function App() {
 
+  const username="alekhya"
 
   return (
   //  <h1>Hello|Alekhya</h1>
-    <Tea/>
+  <>
+  <Tea/>
+  {/* in {} we only write evaluated expressions */}
+  <h1>Hello {username}</h1>
+  
+  </> 
 
   )
 }
