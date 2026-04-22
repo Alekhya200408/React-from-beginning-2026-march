@@ -3,14 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import UserContextProvider from './context/UserContextProvider'
+import Login from './components/Login'
+import Profile from './components/profile'
 
 function App() {
   
 
   return (
-    <>
-    <h1>Holaa</h1>
-    </>
+   <UserContextProvider>
+    <h1>Holaa</h1> 
+    <Login/>
+    <Profile/> 
+   </UserContextProvider>
   )
 }
 
